@@ -1,0 +1,137 @@
+settings:
+  map-world-name: 'EmeraldPlinko'
+  border-distance: 200
+  ball-movement-handler: "DEFAULT"
+
+# Do not change unless you know what you're doing. This contains the data regarding where the next map should spawn.
+data:
+  direction: ""
+  distance: 200
+
+difficulty:
+  # Easy Difficulty
+  easy:
+    pull-middle: 50
+    schematic: "easy.schem"
+
+    win-pools:
+      RED_CONCRETE_POWDER:
+        win-multiplier: 9
+        particle: "CRIT"
+
+      BROWN_CONCRETE_POWDER:
+        win-multiplier: 4
+        particle: "CRIT"
+
+      GREEN_CONCRETE_POWDER:
+        win-multiplier: 2
+        particle: "CRIT"
+
+      LIME_CONCRETE_POWDER:
+        win-multiplier: 0.8
+        particle: "CRIT"
+
+      YELLOW_CONCRETE_POWDER:
+        win-multiplier: 0.2
+        particle: "CRIT"
+
+    side-options:
+      settings:
+        yaw-difference: 22
+        yaw-range: 25
+      quit:
+        distance: 3
+        title: "&c&lLeave Game"
+        description:
+          - "&7Click here to leave the game"
+
+      options:
+        distance: 3
+        title: "&9&lSettings"
+        description:
+          - "&7Click here to open the"
+          - "&7settings for the current game"
+
+  # Medium Difficulty
+  medium:
+    pull-middle: 65
+    schematic: "medium.schematic"
+
+    win-pools:
+      RED_CONCRETE_POWDER:
+        win-multiplier: 2
+        particle: "CRIT"
+
+      BROWN_CONCRETE_POWDER:
+        win-multiplier: 1.75
+        particle: "CRIT"
+
+      GREEN_CONCRETE_POWDER:
+        win-multiplier: 1.5
+        particle: "CRIT"
+
+      LIME_CONCRETE_POWDER:
+        win-multiplier: 1.2
+        particle: "CRIT"
+
+      YELLOW_CONCRETE_POWDER:
+        win-multiplier: 0.8
+        particle: "CRIT"
+
+    side-options:
+      settings:
+        yaw-difference: 22
+        yaw-range: 25
+      quit:
+        distance: 3
+        title: "&c&lLeave Game"
+        description:
+          - "&7Click here to leave the game"
+
+      options:
+        distance: 3
+        title: "&9&lSettings"
+        description:
+          - "&7Click here to open the settings for the current game"
+
+  # Hard Difficulty
+  hard:
+    pull-middle: 80
+    schematic: "hard.schematic"
+
+    win-pools:
+      RED_CONCRETE_POWDER:
+        win-multiplier: 2
+        particle: "CRIT"
+
+      BROWN_CONCRETE_POWDER:
+        win-multiplier: 1.75
+        particle: "CRIT"
+
+      GREEN_CONCRETE_POWDER:
+        win-multiplier: 1.5
+        particle: "CRIT"
+
+      LIME_CONCRETE_POWDER:
+        win-multiplier: 1.2
+        particle: "CRIT"
+
+      YELLOW_CONCRETE_POWDER:
+        win-multiplier: 0.8
+        particle: "CRIT"
+
+    side-options:
+      settings:
+        yaw-difference: 22
+        yaw-range: 25
+      quit:
+        distance: 3
+        title: "&c&lLeave Game"
+        description:
+          - "&7Click here to leave the game"
+
+      options:
+        distance: 3
+        title: "&9&lSettings"
+        description:
+          - "&7Click here to open the settings for the current game"

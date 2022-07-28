@@ -1,0 +1,12 @@
+name: EmeraldPlinko
+version: '${project.version}'
+main: com.wolfeiii.emeraldplinko.EmeraldPlinko
+api-version: 1.19
+authors: [ Wolfeiii ]
+depend:
+  - DecentHolograms
+  - Vault
+  - WorldEdit
+commands:
+  plinko:
+    description: yes
